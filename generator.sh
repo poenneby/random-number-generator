@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello"
+echo $RANDOM > generate.out
