@@ -1,3 +1,4 @@
 #!/bin/bash
 
-echo $RANDOM > generate.out
+mkdir -p out
+echo $RANDOM > out/generate.out
