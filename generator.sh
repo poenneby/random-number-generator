@@ -6,3 +6,4 @@ if [ -z "$1" ]; then
   exit
 fi
 echo $RANDOM > out/$1.out
+echo "Generated ${RANDOM} to out/${1}.out"
